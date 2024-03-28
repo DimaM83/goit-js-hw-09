@@ -5,3 +5,29 @@
   |============================
 */
 @import url('./reset.css');
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.gallery-item {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.gallery-link {
+  display: block;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-image:hover {
+  filter: brightness(80%);
+}
